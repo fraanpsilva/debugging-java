@@ -24,4 +24,13 @@ public class CalculadoraDeMedias {
         return soma / alunos.length;
     }
 
+    /* break point
+    * step over - faz pular a linha
+    * step into - entrar dentro do metodo e ver a execução dele
+    * force step into -  forçar a entrada no metodo
+    * step out - sair do metodo
+    * run to cursor - acelerar a execução
+    * evaluation expression - serve para fazer simulações
+    * */
+
 }
