@@ -1,6 +1,8 @@
 package br.com.dio.debbuging;
 
 public class Main {
+
+    // Mostrando a pilha de execução java
     public static void main(String[] args) {
         System.out.println("Iniciou do programa no método main.");
         a();
@@ -22,7 +24,7 @@ public class Main {
 
     static void c(){
         System.out.println("Entrou no método c.");
-        //Thread.dumpStack();
+        //Thread.dumpStack(); // metodo recomendado quando queremos fazer a depuração do código
         System.out.println("Finalizou o método c.");
     }
 
